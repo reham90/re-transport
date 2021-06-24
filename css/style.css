@@ -1535,6 +1535,15 @@ footer h1{
 .nav-list {
     width: 100%;
     background: rgb(20 20 20 / 99%);
+    width: 100%;
+    background: rgb(20 20 20 / 99%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    padding: 150px 0;
 }
 }
 
