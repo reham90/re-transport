@@ -59,3 +59,16 @@ btn.on('click', function(e) {
   e.preventDefault();
   $('html, body').animate({scrollTop:0}, '300');
 });
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var atr = 0;
+    $('.scroll-down').click(function () {
+        atr = $(this).attr('href');
+        $('html, body').animate({
+            scrollTop: $(atr).offset().top
+        }, 1000);
+
+        return false;
+    });
